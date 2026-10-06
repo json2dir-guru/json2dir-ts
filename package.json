@@ -1,0 +1,22 @@
+{
+  "name": "json2dir-ts",
+  "version": "0.1.0",
+  "description": "json2dir in TypeScript: the document becomes a typed tree before anything is written",
+  "type": "module",
+  "bin": {
+    "json2dir": "dist/main.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^7.0.2"
+  }
+}
